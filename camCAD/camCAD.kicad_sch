@@ -2,9 +2,123 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "2de15e3a-5d6b-4c44-a4fa-f6cf80c0605c")
-	(paper "A4")
+	(uuid "f8c54b90-b04b-4669-83a4-14a80dea260e")
+	(paper "A2")
 	(lib_symbols)
+	(text "**DCMI Alternate Function mappings**\n\nPA4 - HSYNC \nPB7 - VSYNC \nPA6 - PCLK \nPA9, PC6 - D0 \nPA10, PC7 - D1\nPC8, PE0 - D2\nPC9, PE1 - D3\nPC11, PE4 - D4\nPB6 - D5 \nPB8, PE5 - D6\nPB9, PE6 - D7\nPC10 - D8 \nPC12 - D9\nPB5 - D10\nPD2 - D11\nPF11 - D12\nPG15 - D13\n\n\n**Available SPI AF Mappings**\n\n_SPI1_ (PA6 in use by OV)\nPA4, PA15 - NSS\nPA5, PB3 - SCK\nPB4 - MISO\nPA7, PB5 - MOSI\n\n_SPI2_ (MicroSD)\nPB12, PB9 - NSS\nPC3, PB15 - MOSI\nPB10, PB13 - SCK\nPB14, PC2 - MISO\n\n\n_SPI3_ (ILI9341)\nPA3, A15 - NSS\nPC10, PB3 - SCK\nPC11, PB4 - MISO\nPC12, PB5 - MOSI\n\n\n**I2C Mappings**\n\n_I2C 1_\nPB5 - SMBA\nPB6, PB8 - SCL\nPB7, PB9 - SDA\n\n\n_I2C 2_ (OV7670)\nPF0, PB11 - SDA\nPF1, PB10 - SCL\nPF2, PB12 - SMBA\n\n_I2C 3_ \nPC9 - SDA\nPA8 - SCL\nPA9 - SMBA\n\n\n\n\n\n"
+		(exclude_from_sim no)
+		(at 23.368 207.518 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "011980f7-93e3-42ba-b6a3-1e51b1eb7201")
+	)
+	(text "TODO:\n1. Add power supply\n2. Assign XCLK\n3. Reassign RGB LED Resistor values\n"
+		(exclude_from_sim no)
+		(at 23.876 40.386 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+			(justify left)
+		)
+		(uuid "117e5085-3984-4006-b2df-906fda8446cc")
+	)
+	(sheet
+		(at 88.265 77.47)
+		(size 220.98 236.855)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a2672e40-c9ae-483d-8f72-ee907724577d")
+		(property "Sheetname" "Peripherals"
+			(at 88.265 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pers.kicad_sch"
+			(at 88.265 314.9096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "camCAD"
+				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 337.82 76.835)
+		(size 215.265 142.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "da932f2b-e136-46c9-98f4-43086828212d")
+		(property "Sheetname" "Power_Conns"
+			(at 337.82 76.1234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_conns.kicad_sch"
+			(at 337.82 219.6596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "camCAD"
+				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
