@@ -217,7 +217,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "vFeb26"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -444,7 +444,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -485,13 +485,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -717,8 +718,18 @@
     "top_level_sheets": [
       {
         "filename": "camCAD.kicad_sch",
-        "name": "camCAD",
+        "name": "STM_Main",
         "uuid": "10dc694b-736c-447e-b63f-ef0ac23fb9b4"
+      },
+      {
+        "filename": "camcad.kicad_sch",
+        "name": "Power_Conns",
+        "uuid": "86c6dbb0-f65a-4c28-9529-6badf2ac0256"
+      },
+      {
+        "filename": "peripherals.kicad_sch",
+        "name": "Peripherals",
+        "uuid": "e2824ea6-9024-4cee-b80c-5fefbc7112d7"
       }
     ],
     "used_designators": "",
@@ -727,7 +738,15 @@
   "sheets": [
     [
       "10dc694b-736c-447e-b63f-ef0ac23fb9b4",
-      "camCAD"
+      "STM_Main"
+    ],
+    [
+      "86c6dbb0-f65a-4c28-9529-6badf2ac0256",
+      "Power_Conns"
+    ],
+    [
+      "e2824ea6-9024-4cee-b80c-5fefbc7112d7",
+      "Peripherals"
     ]
   ],
   "text_variables": {},

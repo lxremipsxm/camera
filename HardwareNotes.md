@@ -3,19 +3,26 @@
 --- 
 
 ## OV7670
-NA so far
+1. Draws 
 
 
 ## MicroSD
-NA so far
+1. Draws 
 
 
 ## SWD Header
 1.  Exposes the SWD peripheral that can be used to debug with a STLink
+2. Draws
 
 
-## ILI9341 Display **HEADER**
-NA so far
+## ILI9341
+
+### Header
+1. 
+
+### Actual device
+1. Draws
+
 
 
 ## AP3602A Regulated Charge-Pump
@@ -24,10 +31,11 @@ NA so far
 3. Bypass VOUT with a 1uF to 22uF low ESR *ceramic* cap to GND
 4. Bypass VIN with another 1uf-22uF low ESR ceramic cap to GND
 5. Flying capacitor is separate from these two capacitors
+6. Draws 
 
 
 ## Flash LED
-1. Takes 50mA maximum, need a series resistor
+1. Draws 50mA maximum
 2. V_LED = 3.2V
 3. V_Out (Charge-Pump) = 5V
 4. Required LED Current ~= 50mA
@@ -38,6 +46,7 @@ NA so far
 1. Common Anode (3.3V)
 2. PWM-controlled, using Advanced timer TIM4
 3. B CH1, G CH2, R CH3
+4. Draws 
 
 ### Resistor and control details
 V_GPIO <= 3.3V
