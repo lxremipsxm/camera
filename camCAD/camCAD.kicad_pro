@@ -722,7 +722,7 @@
         "uuid": "e2824ea6-9024-4cee-b80c-5fefbc7112d7"
       }
     ],
-    "used_designators": "U2,L1,#PWR14-17,J3,C20-21",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -735,12 +735,16 @@
       "Power_Supply_Scheme"
     ],
     [
-      "a2672e40-c9ae-483d-8f72-ee907724577d",
-      "Chip_and_Peripherals"
-    ],
-    [
       "d4928a95-01f6-4ac1-a577-561f178a5e0e",
       "Buck_Converter"
+    ],
+    [
+      "4d316cb0-e152-4c7b-a16c-2522b4fe3077",
+      "STM32F407"
+    ],
+    [
+      "6a2215d2-deaa-4e55-8021-5c3b01265060",
+      "Components"
     ]
   ],
   "text_variables": {},

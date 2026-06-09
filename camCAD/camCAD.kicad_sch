@@ -5,18 +5,7 @@
 	(uuid "f8c54b90-b04b-4669-83a4-14a80dea260e")
 	(paper "A2")
 	(lib_symbols)
-	(text "**DCMI Alternate Function mappings**\n\nPA4 - HSYNC \nPB7 - VSYNC \nPA6 - PCLK \nPA9, PC6 - D0 \nPA10, PC7 - D1\nPC8, PE0 - D2\nPC9, PE1 - D3\nPC11, PE4 - D4\nPB6 - D5 \nPB8, PE5 - D6\nPB9, PE6 - D7\nPC10 - D8 \nPC12 - D9\nPB5 - D10\nPD2 - D11\nPF11 - D12\nPG15 - D13\n\n\n**Available SPI AF Mappings**\n\n_SPI1_ (PA6 in use by OV)\nPA4, PA15 - NSS\nPA5, PB3 - SCK\nPB4 - MISO\nPA7, PB5 - MOSI\n\n_SPI2_ (MicroSD)\nPB12, PB9 - NSS\nPC3, PB15 - MOSI\nPB10, PB13 - SCK\nPB14, PC2 - MISO\n\n\n_SPI3_ (ILI9341)\nPA3, A15 - NSS\nPC10, PB3 - SCK\nPC11, PB4 - MISO\nPC12, PB5 - MOSI\n\n\n**I2C Mappings**\n\n_I2C 1_\nPB5 - SMBA\nPB6, PB8 - SCL\nPB7, PB9 - SDA\n\n\n_I2C 2_ (OV7670)\nPF0, PB11 - SDA\nPF1, PB10 - SCL\nPF2, PB12 - SMBA\n\n_I2C 3_ \nPC9 - SDA\nPA8 - SCL\nPA9 - SMBA\n\n\n\n\n\n"
-		(exclude_from_sim no)
-		(at 23.368 207.518 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-			(justify left)
-		)
-		(uuid "011980f7-93e3-42ba-b6a3-1e51b1eb7201")
-	)
-	(text "TODO:\n1. Add power supply\n2. Assign XCLK\n3. Reassign RGB LED Resistor values\n"
+	(text "TODO:\n1. Assign XCLK\n2. Reassign RGB LED Resistor values\n"
 		(exclude_from_sim no)
 		(at 23.876 40.386 0)
 		(effects
@@ -28,8 +17,8 @@
 		(uuid "117e5085-3984-4006-b2df-906fda8446cc")
 	)
 	(sheet
-		(at 88.265 77.47)
-		(size 220.98 236.855)
+		(at 85.725 77.47)
+		(size 85.725 83.185)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -42,9 +31,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "a2672e40-c9ae-483d-8f72-ee907724577d")
-		(property "Sheetname" "Chip_and_Peripherals"
-			(at 88.265 76.7584 0)
+		(uuid "4d316cb0-e152-4c7b-a16c-2522b4fe3077")
+		(property "Sheetname" "STM32F407"
+			(at 85.725 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54,8 +43,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pers.kicad_sch"
-			(at 88.265 314.9096 0)
+		(property "Sheetfile" "f407zgt6.kicad_sch"
+			(at 85.725 161.2396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -68,7 +57,53 @@
 		(instances
 			(project "camCAD"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
-					(page "3")
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 77.47)
+		(size 124.46 82.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6a2215d2-deaa-4e55-8021-5c3b01265060")
+		(property "Sheetname" "Components"
+			(at 181.61 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "components.kicad_sch"
+			(at 181.61 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "camCAD"
+				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
+					(page "6")
 				)
 			)
 		)
