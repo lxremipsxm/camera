@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "8924c117-b6c3-4940-b51c-b0fe7ef09cf6")
 	(paper "User" 330.2 381)
+	(title_block
+		(title "Connections to peripherals for camera + storage interface")
+		(date "2026-06-09")
+		(rev "Jun26")
+		(comment 4 "By Siddharth Vasudevan")
+	)
 	(lib_symbols
 		(symbol "1_Cameras:CAMERA-OV7670"
 			(pin_names
@@ -6665,14 +6671,6 @@
 		(uuid "7d4067a0-65b6-4543-bc36-a9b7384bdbe9")
 	)
 	(no_connect
-		(at 130.81 80.01)
-		(uuid "7e1623b3-5026-4d4b-bcf7-6b2b12d42fb9")
-	)
-	(no_connect
-		(at 130.81 77.47)
-		(uuid "7edcd687-cdc5-44ab-9e73-0f20e09cd165")
-	)
-	(no_connect
 		(at 130.81 181.61)
 		(uuid "84a4262f-5768-497c-afff-e83fc0e8eb3f")
 	)
@@ -8587,6 +8585,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "PDR_ON"
+		(shape input)
+		(at 130.81 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0862c90-1918-431c-8074-a8675865c140")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.3862 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape input)
+		(at 130.81 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3d8d14a-e804-4e85-8c4d-a979abb02c49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0472 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

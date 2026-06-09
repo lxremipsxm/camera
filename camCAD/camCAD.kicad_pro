@@ -485,13 +485,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -721,7 +722,7 @@
         "uuid": "e2824ea6-9024-4cee-b80c-5fefbc7112d7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U2,L1,#PWR14-17,J3,C20-21",
     "variants": []
   },
   "sheets": [
@@ -731,11 +732,15 @@
     ],
     [
       "da932f2b-e136-46c9-98f4-43086828212d",
-      "Power_Conns"
+      "Power_Supply_Scheme"
     ],
     [
       "a2672e40-c9ae-483d-8f72-ee907724577d",
-      "Peripherals"
+      "Chip_and_Peripherals"
+    ],
+    [
+      "d4928a95-01f6-4ac1-a577-561f178a5e0e",
+      "Buck_Converter"
     ]
   ],
   "text_variables": {},

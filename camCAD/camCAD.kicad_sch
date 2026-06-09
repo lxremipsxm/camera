@@ -43,7 +43,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "a2672e40-c9ae-483d-8f72-ee907724577d")
-		(property "Sheetname" "Peripherals"
+		(property "Sheetname" "Chip_and_Peripherals"
 			(at 88.265 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -74,6 +74,52 @@
 		)
 	)
 	(sheet
+		(at 338.455 236.855)
+		(size 213.995 77.47)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4928a95-01f6-4ac1-a577-561f178a5e0e")
+		(property "Sheetname" "Buck_Converter"
+			(at 338.455 236.1434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck.kicad_sch"
+			(at 338.455 314.9096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "camCAD"
+				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 337.82 76.835)
 		(size 215.265 142.24)
 		(exclude_from_sim no)
@@ -89,7 +135,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "da932f2b-e136-46c9-98f4-43086828212d")
-		(property "Sheetname" "Power_Conns"
+		(property "Sheetname" "Power_Supply_Scheme"
 			(at 337.82 76.1234 0)
 			(show_name no)
 			(do_not_autoplace no)
