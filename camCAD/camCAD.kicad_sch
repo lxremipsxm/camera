@@ -3,22 +3,28 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "f8c54b90-b04b-4669-83a4-14a80dea260e")
-	(paper "A2")
+	(paper "User" 381 279.4)
+	(title_block
+		(title "Root for camCAD")
+		(date "2026-06-11")
+		(rev "Jun26")
+		(comment 4 "By Siddharth Vasudevan")
+	)
 	(lib_symbols)
-	(text "TODO:\n1. Assign XCLK\n2. Reassign RGB LED Resistor values\n"
+	(text "TODO:\n1. Assign XCLK to TIM\n2. Reassign RGB LED Resistor values\n3. Create a charging / data port (USBC)\n"
 		(exclude_from_sim no)
-		(at 23.876 40.386 0)
+		(at 245.364 47.752 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 3.81 3.81)
 			)
 			(justify left)
 		)
 		(uuid "117e5085-3984-4006-b2df-906fda8446cc")
 	)
 	(sheet
-		(at 85.725 77.47)
-		(size 85.725 83.185)
+		(at 25.4 29.21)
+		(size 85.725 100.965)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33,7 +39,7 @@
 		)
 		(uuid "4d316cb0-e152-4c7b-a16c-2522b4fe3077")
 		(property "Sheetname" "STM32F407"
-			(at 85.725 76.7584 0)
+			(at 25.4 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44,7 +50,53 @@
 			)
 		)
 		(property "Sheetfile" "f407zgt6.kicad_sch"
-			(at 85.725 161.2396 0)
+			(at 25.4 130.7596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "camCAD"
+				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 29.21)
+		(size 101.6 100.965)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6a2215d2-deaa-4e55-8021-5c3b01265060")
+		(property "Sheetname" "Components"
+			(at 129.54 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "components.kicad_sch"
+			(at 129.54 130.7596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63,54 +115,8 @@
 		)
 	)
 	(sheet
-		(at 181.61 77.47)
-		(size 124.46 82.55)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "6a2215d2-deaa-4e55-8021-5c3b01265060")
-		(property "Sheetname" "Components"
-			(at 181.61 76.7584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "components.kicad_sch"
-			(at 181.61 160.6046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "camCAD"
-				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 338.455 236.855)
-		(size 213.995 77.47)
+		(at 129.54 149.86)
+		(size 102.235 96.52)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -125,7 +131,7 @@
 		)
 		(uuid "d4928a95-01f6-4ac1-a577-561f178a5e0e")
 		(property "Sheetname" "Buck_Converter"
-			(at 338.455 236.1434 0)
+			(at 129.54 149.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -136,7 +142,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 338.455 314.9096 0)
+			(at 129.54 246.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -155,8 +161,8 @@
 		)
 	)
 	(sheet
-		(at 337.82 76.835)
-		(size 215.265 142.24)
+		(at 26.035 149.225)
+		(size 84.455 95.885)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -171,7 +177,7 @@
 		)
 		(uuid "da932f2b-e136-46c9-98f4-43086828212d")
 		(property "Sheetname" "Power_Supply_Scheme"
-			(at 337.82 76.1234 0)
+			(at 26.035 148.5134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -182,7 +188,7 @@
 			)
 		)
 		(property "Sheetfile" "power_conns.kicad_sch"
-			(at 337.82 219.6596 0)
+			(at 26.035 245.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -195,7 +201,7 @@
 		(instances
 			(project "camCAD"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
-					(page "2")
+					(page "3")
 				)
 			)
 		)

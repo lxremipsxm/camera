@@ -12,6 +12,8 @@
 7. Charge-Pump: 31-AP3602AKTR-G1CT-ND
 8. Flash LED: 1516-QBLP677AD-IWD-2897CT-ND
 9. Buck Converter: SC189ZSKCT-ND
+10. Battery: 1471-MIKROE-4474-ND
+11. Battery Connector: 455-B2B-XH-A-ND
 
 ## STM32F407 + Recommendations from manufacturer
 1. PCB should be a multilayer one with separate layers for VSS and VDD
@@ -61,6 +63,13 @@
 5. R (resistor) >= V/I <= (5-3.2V)/(50*10^-3) >= 36 Ohms
 
 
+## SC189Z 3.6V->3.3V Buck Converter
+1. EN pin should be tied to VIN on itself
+2. LX is a switching node, connect inductor between here and output cap
+3. Place components as closely as possible to the SC189Z.
+4. For SOT-23 package at Vin = 4.0V, Vout = 3.3V and I_load ~= 560 mA, efficiency is roughly 93%
+
+
 ## Power + Activity RGBLED
 1. Common Anode (3.3V)
 2. PWM-controlled, using Advanced timer TIM4
@@ -91,7 +100,9 @@ I_avg = 13*10^-3 A
 R_blue = (3.3-3.0)/(13*10^-3) >= 23.08 Ohm
 
 
-## Estimated Current Needs for Battery Selection
+# Power Considerations
+
+## Current Needs of Components
 1. STM32 = 150mA
 2. OV7670 = 50 mA
 3. MicroSD Breakout = 100mA
@@ -99,12 +110,17 @@ R_blue = (3.3-3.0)/(13*10^-3) >= 23.08 Ohm
 5. Charge-pump + Flash = 75mA
 6. LEDs ~= 51 + 3(20) = 111mA
 
-
 Total = 150 + 50 + 100 + 75 + 75 + 111 = 350 + 75 + 111 = 561 mA
 
-Once I choose a buck converter, I will include the efficiency of that to decide the battery configuration.
 
-Safety margin of 20% to account for battery aging
+## Safety Margin and Buck Converter Efficiency
+~~Once I choose a buck converter, I will include the efficiency of that to decide the battery configuration.~~
+With the selected buck converter, the SC189Z, and a 4.0V input with 3.3V output configuration, the efficiency is ~93%.
 
-Estimated needs (safety margin of 20%, 4 hour usage) = 561 * 1.2 * 4 = 2692.8 mAh
+Using this and a safety margin of 20% to account for battery aging:
+Estimated needs (safety margin of 20%, 4 hour usage) = (561 * 4)/0.93 * 1.2 = 2895.5 mAh, which we can round up to 3000mAh.
+
+
+Then a battery can be selected (Item 10 and 11 in **Component List**)
+
 
