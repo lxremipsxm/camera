@@ -722,7 +722,7 @@
         "uuid": "e2824ea6-9024-4cee-b80c-5fefbc7112d7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW3-4,J1,U1",
     "variants": []
   },
   "sheets": [
@@ -736,11 +736,11 @@
     ],
     [
       "da932f2b-e136-46c9-98f4-43086828212d",
-      "Power_Supply_Scheme"
+      "STM32_Power_Requirements"
     ],
     [
       "d4928a95-01f6-4ac1-a577-561f178a5e0e",
-      "Buck_Converter"
+      "Power_Supply&Charging"
     ],
     [
       "6a2215d2-deaa-4e55-8021-5c3b01265060",

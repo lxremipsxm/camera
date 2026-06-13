@@ -130,7 +130,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d4928a95-01f6-4ac1-a577-561f178a5e0e")
-		(property "Sheetname" "Buck_Converter"
+		(property "Sheetname" "Power_Supply&Charging"
 			(at 129.54 149.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -176,7 +176,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "da932f2b-e136-46c9-98f4-43086828212d")
-		(property "Sheetname" "Power_Supply_Scheme"
+		(property "Sheetname" "STM32_Power_Requirements"
 			(at 26.035 148.5134 0)
 			(show_name no)
 			(do_not_autoplace no)
