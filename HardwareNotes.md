@@ -2,7 +2,7 @@
 
 ---
 
-## Component List (Digikey)
+## Component List (Digikey Part Numbers Included)
 1. STM32F407: 497-11766-ND
 2. OV7670: 1188-CAMERA-OV7670-ND
 3. MicroSD Breakout: 1568-00544-ND
@@ -14,8 +14,8 @@
 9. Buck Converter: SC189ZSKCT-ND
 10. Battery: 1471-MIKROE-4474-ND
 11. Battery Connector: 455-B2B-XH-A-ND
-12. Charging IC: 
-13. USB-C for Charging: 
+12. Charging IC: 296-38871-1-ND
+13. USB-C for Charging: 2223-UJ20-C-H-G-SMT-1-P16-TRCT-ND
 
 ## STM32F407 + Recommendations from manufacturer
 1. PCB should be a multilayer one with separate layers for VSS and VDD
@@ -23,7 +23,6 @@
 3. Recommended to put buck converter far from other components to avoid noise 
 4. Unused counters or I/O should not be left free, either set to 1/0 or peripheral disabled.
 5. Draws <= 150mA
-
 
 
 ## OV7670
@@ -133,8 +132,13 @@ Battery selected (Items 10 and 11 in **Component List**).
 2. Discharges 0.2 C-rate
 3. Standard charging 0.5C (C-rate, NOT coulombs like I initially thought), takes about 5.5-6.5 hours to charge fully 
 4. Current needed for standard charging, therefore, is 0.5C * 3000mAh = 1.5A
-5. 
 
 ## BQ24072 Charging IC
+1. ILIM doesn't need to be programmed in EN2=LO EN1=HI mode (USB 500mA), so I've selected a 4.7k Ohm resistor to GND
+2. $797 <= $K_{ISET}$ <= 975$. I use this to calculate the resistor needed to program the ISET pin.
+3. $I_{CHG}$ can be 1.5A, which I will keep. $R_{ISET} = K_{ISET}/I_{CHG}$
+4. $531.3 \le R_{ISET} \le 650$. The valid range is $590 \ge r \ge 8.9k$. I will use $R_{ISET} = 619$  
+
+
+## USB C Socket
 1. 
-2. 
