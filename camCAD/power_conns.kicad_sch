@@ -1794,7 +1794,7 @@
 			)
 		)
 	)
-	(global_label "BUCK3.3V"
+	(global_label "BUCKOUT"
 		(shape input)
 		(at 97.79 20.32 0)
 		(fields_autoplaced yes)
@@ -1806,7 +1806,7 @@
 		)
 		(uuid "2cd43898-5947-47c5-a985-a593ff402654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.0281 20.32 0)
+			(at 109.5443 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1818,7 +1818,7 @@
 			)
 		)
 	)
-	(global_label "BUCK3.3V"
+	(global_label "BUCKOUT"
 		(shape input)
 		(at 39.37 96.52 0)
 		(fields_autoplaced yes)
@@ -1830,7 +1830,7 @@
 		)
 		(uuid "37390ddc-003f-4bd9-b779-54a47ce7c3a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.6081 96.52 0)
+			(at 51.1243 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2034,7 +2034,7 @@
 			)
 		)
 	)
-	(global_label "BUCK3.3V"
+	(global_label "BUCKOUT"
 		(shape input)
 		(at 93.98 106.68 180)
 		(fields_autoplaced yes)
@@ -2046,7 +2046,7 @@
 		)
 		(uuid "971be213-5000-486d-bb33-9f2b52ae28c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7419 106.68 0)
+			(at 82.2257 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37572dd7-ef08-4b7b-a233-34eaad507402")
-		(property "Reference" "100K"
+		(property "Reference" "100K1"
 			(at 102.489 102.743 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2737,7 +2737,7 @@
 		(instances
 			(project "camCAD"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/da932f2b-e136-46c9-98f4-43086828212d"
-					(reference "100K")
+					(reference "100K1")
 					(unit 1)
 				)
 			)

@@ -6,7 +6,7 @@
 1. STM32F407: 497-11766-ND
 2. OV7670: 1188-CAMERA-OV7670-ND
 3. MicroSD Breakout: 1568-00544-ND
-4. ILI9341 HEADER: WM12371CT-ND
+4. FPC Socket for ILI9341: WM12371CT-ND
 5. ILI9341: 1987-DT024ETFT-IPS-SHB-ND
 6. RGB LED: CLMVC-FKA-CL1D1L71BB7C3C3CT-ND
 7. Charge-Pump: 31-AP3602AKTR-G1CT-ND
@@ -14,6 +14,8 @@
 9. Buck Converter: SC189ZSKCT-ND
 10. Battery: 1471-MIKROE-4474-ND
 11. Battery Connector: 455-B2B-XH-A-ND
+12. Charging IC: 
+13. USB-C for Charging: 
 
 ## STM32F407 + Recommendations from manufacturer
 1. PCB should be a multilayer one with separate layers for VSS and VDD
@@ -100,7 +102,7 @@ I_avg = 13*10^-3 A
 R_blue = (3.3-3.0)/(13*10^-3) >= 23.08 Ohm
 
 
-# Power Considerations
+# Power Considerations for Battery
 
 ## Current Needs of Components
 1. STM32 = 150mA
@@ -121,6 +123,18 @@ Using this and a safety margin of 20% to account for battery aging:
 Estimated needs (safety margin of 20%, 4 hour usage) = (561 * 4)/0.93 * 1.2 = 2895.5 mAh, which we can round up to 3000mAh.
 
 
-Then a battery can be selected (Item 10 and 11 in **Component List**)
+Battery selected (Items 10 and 11 in **Component List**).
 
 
+# Charging method
+
+## MLP805660 Battery pack
+1. 3.7V, 3000mAh
+2. Discharges 0.2 C-rate
+3. Standard charging 0.5C (C-rate, NOT coulombs like I initially thought), takes about 5.5-6.5 hours to charge fully 
+4. Current needed for standard charging, therefore, is 0.5C * 3000mAh = 1.5A
+5. 
+
+## BQ24072 Charging IC
+1. 
+2. 
