@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "1_Cameras") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_Cameras.pretty") (options "") (descr ""))
+	(lib (name "1_Headers") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_Headers.pretty") (options "") (descr ""))
+	(lib (name "1_MicroSD") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_MicroSD.pretty") (options "") (descr ""))
+	(lib (name "1_DPPMs") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_DPPMs.pretty") (options "") (descr ""))
+	(lib (name "1_Sockets") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_Sockets.pretty") (options "") (descr ""))
+	(lib (name "1_LEDs") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_LEDs.pretty") (options "") (descr ""))
+	(lib (name "1_BuckConverters") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_BuckConverters.pretty") (options "") (descr ""))
+)

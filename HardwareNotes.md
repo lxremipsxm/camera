@@ -84,21 +84,21 @@ V_GPIO <= 3.3V
 V_red = 1.9 V
 I_avg = 25*10^-3 A
 
-R_red >= (3.3-1.9)/(2.5*10^-3) = 53.85 Ohm
+R_red >= (3.3-1.9)/(2.5*10^-3) = 53.85 Ohm ~= 56 Ohm
 
 
 #### Green
 V_green = 2.9 V
 I_avg = 13*10^-3 A
 
-R_green = (3.3-2.9)/(13*10^-3) >= 30.77 Ohm
+R_green = (3.3-2.9)/(13*10^-3) >= 30.77 Ohm ~= 33 Ohm
 
 
 #### Blue
 V_blue = 3.0 V
 I_avg = 13*10^-3 A
 
-R_blue = (3.3-3.0)/(13*10^-3) >= 23.08 Ohm
+R_blue = (3.3-3.0)/(13*10^-3) >= 23.08 Ohm ~= 22 Ohm
 
 
 # Power Considerations for Battery
