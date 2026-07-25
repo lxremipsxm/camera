@@ -3918,7 +3918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGT16_1P7X1P7"
+		(property "Footprint" "1_DPPMs:RGT16_1P7X1P7"
 			(at 34.29 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4025,7 +4025,7 @@
 		(dnp no)
 		(uuid "04f0f9ac-fa06-45ff-9624-bd04d3f4f541")
 		(property "Reference" "D6"
-			(at 109.2835 107.8865 90)
+			(at 107.696 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4034,8 +4034,8 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 109.2835 109.9185 90)
+		(property "Value" "PG_LED"
+			(at 107.696 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4044,7 +4044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_LEDs:LEDM1608X80_G"
 			(at 113.03 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4202,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 70.8025 101.5365 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4361,7 +4361,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF Cer"
+		(property "Value" "1uF cer, low ESR"
 			(at 77.47 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4521,7 +4521,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "1k"
 			(at 94.9325 99.8855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4834,7 +4834,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF Cer"
+		(property "Value" "4.7uF cer"
 			(at 59.69 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5003,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_Headers:JST_B2B-XH-A"
 			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5308,7 +5308,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "1k"
 			(at 109.601 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5558,7 +5558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UJ20-C-H-G-SMT-1-P16-TR:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
+		(property "Footprint" "1_Sockets:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
 			(at 143.51 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5718,7 +5718,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF Cer"
+		(property "Value" "4.7uF cer"
 			(at 39.37 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5875,8 +5875,8 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 93.6625 110.4265 90)
+		(property "Value" "CHG_LED"
+			(at 91.44 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5885,7 +5885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_LEDs:LEDC1608X35N_R"
 			(at 97.79 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5976,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23-5-SC189_SEM"
+		(property "Footprint" "1_BuckConverters:SOT23-5-SC189_SEM"
 			(at 173.228 37.084 0)
 			(hide yes)
 			(show_name no)

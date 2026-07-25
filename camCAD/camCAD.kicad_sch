@@ -11,7 +11,7 @@
 		(comment 4 "By Siddharth Vasudevan")
 	)
 	(lib_symbols)
-	(text "TODO:\n1. Assign XCLK to TIM\n2. Reassign RGB LED Resistor values\n3. Create a charging / data port (USBC)\n"
+	(text "TODO:\n1. Create Footprints\n2. Find RC components\n3. Assign RC/misc footprints\n"
 		(exclude_from_sim no)
 		(at 245.364 47.752 0)
 		(effects

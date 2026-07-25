@@ -1994,36 +1994,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "1_MicroSD:MicroSD_BREA"
+		(symbol "1_MicroSD:254"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Z1"
-				(at -1.27 13.97 0)
+			(property "Reference" "U"
+				(at -7.62 13.462 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "MicroSD_Breakout"
-				(at -8.128 11.938 0)
+			(property "Value" "254"
+				(at -7.62 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "254:MODULE_254"
+				(at 43.18 -13.462 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2031,6 +2034,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -2053,144 +2057,293 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "MicroSD_BREA_0_1"
+			(property "MF" "Adafruit"
+				(at -8.636 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.75 mm"
+				(at -1.016 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "NON STANDARD Adafruit"
+				(at 13.716 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 18.288 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 26.67 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "Jul 31, 2013"
+				(at 6.096 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "254"
+				(at -23.876 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 17.018 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Adafruit Industries"
+				(at 16.002 -21.082 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "254_0_0"
 				(rectangle
-					(start -6.35 10.795)
-					(end 6.35 -10.795)
+					(start -7.62 12.7)
+					(end 7.62 -12.7)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "MicroSD_BREA_1_1"
-				(pin unspecified line
-					(at -10.16 7.62 0)
-					(length 3.81)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 5.08)
 					(name "CD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -10.16 5.08 0)
-					(length 3.81)
-					(name "D0"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "CS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -10.16 2.54 0)
-					(length 3.81)
-					(name "GND"
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "DI"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 3.81)
-					(name "SCK"
+				(pin output line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "DO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 3.81)
-					(name "VCC"
+				(pin input clock
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "CLK"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -10.16 -5.08 0)
-					(length 3.81)
-					(name "DI"
+				(pin power_in line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -7.62 0)
-					(length 3.81)
-					(name "CS"
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "3V"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3370,9 +3523,9 @@
 		)
 		(uuid "1df56847-ef8e-4ec6-baac-070ed21a46cc")
 	)
-	(text "MicroSD Transflash Breakout Board\n"
+	(text "Adafruit MicroSD Breakout Board\n"
 		(exclude_from_sim no)
-		(at 102.616 128.27 0)
+		(at 101.854 128.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3459,6 +3612,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d084804e-d259-45a1-9bea-28b366ce490f")
+	)
+	(no_connect
+		(at 134.62 100.33)
+		(uuid "038da42e-1a10-4e57-8f02-04897eb35b04")
 	)
 	(no_connect
 		(at 105.41 57.15)
@@ -3650,16 +3807,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 105.41) (xy 105.41 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd7b611-9e24-49fa-ada2-4155373e9e0c")
-	)
-	(wire
-		(pts
 			(xy 68.58 107.95) (xy 68.58 102.87)
 		)
 		(stroke
@@ -3732,16 +3879,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 95.25) (xy 111.76 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7643595c-e5f2-42b0-acaf-1b0c1097986e")
-	)
-	(wire
-		(pts
 			(xy 91.44 44.45) (xy 105.41 44.45)
 		)
 		(stroke
@@ -3785,16 +3922,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 110.49) (xy 111.76 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d2614a6-ab9d-475f-8838-2a8a3ec67dc6")
-	)
-	(wire
-		(pts
 			(xy 91.44 62.23) (xy 91.44 64.77)
 		)
 		(stroke
@@ -3803,16 +3930,6 @@
 			(color 255 0 255 1)
 		)
 		(uuid "91cddaec-d892-49f1-9477-869f97584c33")
-	)
-	(wire
-		(pts
-			(xy 124.46 105.41) (xy 105.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9256a004-0a56-4cc3-9358-2e4a8a185835")
 	)
 	(wire
 		(pts
@@ -3961,6 +4078,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 118.11) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef231fe-c61c-4210-bd58-f6340e0c416e")
+	)
+	(wire
+		(pts
 			(xy 29.21 110.49) (xy 40.64 110.49)
 		)
 		(stroke
@@ -4099,30 +4226,6 @@
 		(uuid "08db019b-7eec-48de-95c4-3ae75d62fe5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.0001 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PB0"
-		(shape input)
-		(at 124.46 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0fce3ddf-643f-44eb-a239-21098f03e26e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.7253 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4302,30 +4405,6 @@
 			)
 		)
 	)
-	(global_label "PB14"
-		(shape input)
-		(at 124.46 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "562ac130-83cd-456b-8ffd-198205e1a650")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5158 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "PE5"
 		(shape input)
 		(at 64.77 44.45 0)
@@ -4363,6 +4442,30 @@
 		(uuid "575f6fad-aa2a-400b-9833-f338fe42b783")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 27.6763 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB15"
+		(shape input)
+		(at 109.22 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a39c9ae-de16-4e7e-a679-ae3f6a649934")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2758 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4422,9 +4525,9 @@
 			)
 		)
 	)
-	(global_label "SC_3V3"
+	(global_label "PB12"
 		(shape input)
-		(at 111.76 95.25 180)
+		(at 109.22 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4432,9 +4535,9 @@
 			)
 			(justify right)
 		)
-		(uuid "78d63d60-1c0c-4a1c-83ed-b56a2c623c55")
+		(uuid "7dd804b2-50c7-41f4-a974-18131a62a658")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8201 95.25 0)
+			(at 101.2758 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4515,30 +4618,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "PB13"
-		(shape input)
-		(at 124.46 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a086fff7-19b7-445e-b81d-ee5ad8838d63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5158 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4686,19 +4765,19 @@
 			)
 		)
 	)
-	(global_label "PB15"
+	(global_label "SC_3V3"
 		(shape input)
-		(at 124.46 113.03 180)
+		(at 134.62 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c10f5978-e449-425c-b626-55d769c4513e")
+		(uuid "bbec0339-45d1-411d-9794-eee78bd36b67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5158 113.03 0)
+			(at 144.5599 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4706,7 +4785,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4782,6 +4861,54 @@
 			)
 		)
 	)
+	(global_label "PB13"
+		(shape input)
+		(at 109.22 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf494baa-28ff-47f2-9bff-62f9d1ace086")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2758 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB14"
+		(shape input)
+		(at 109.22 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfdd795a-7632-4d70-9932-0733871016e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2758 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SC_3V3"
 		(shape input)
 		(at 68.58 102.87 90)
@@ -4819,6 +4946,30 @@
 		(uuid "def50c56-8ab2-4e7a-a00f-b142cccf81a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 27.7367 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB0"
+		(shape input)
+		(at 109.22 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e222c8e2-8e4d-499e-862d-53e3943db888")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.4853 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4899,30 +5050,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "PB12"
-		(shape input)
-		(at 124.46 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f011648d-82aa-4c98-bfde-b9b8cb5f9b32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5158 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5110,84 +5237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 105.41 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22a68464-8e5d-43b7-8ef0-967263e7677b")
-		(property "Reference" "#PWR023"
-			(at 105.41 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49ec3143-1327-4a51-bcae-ac5391b705ad")
-		)
-		(instances
-			(project "camCAD"
-				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/6a2215d2-deaa-4e55-8021-5c3b01265060"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CLMVC_FKA_CL1D1L71BB7C3C3:CLMVC-FKA-CL1D1L71BB7C3C3")
 		(at 66.04 107.95 180)
 		(unit 1)
@@ -5219,7 +5268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CLMVC-FKA-CL1D1L71BB7C3C3_CRE"
+		(property "Footprint" "1_LEDs:CLMVC-FKA-CL1D1L71BB7C3C3_CRE"
 			(at 55.372 97.536 0)
 			(hide yes)
 			(show_name no)
@@ -5270,6 +5319,238 @@
 			(project "camCAD"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/6a2215d2-deaa-4e55-8021-5c3b01265060"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_MicroSD:254")
+		(at 121.92 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36d785d1-05fa-4fe5-902f-cacb5e9dde52")
+		(property "Reference" "U6"
+			(at 121.92 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA 254"
+			(at 121.92 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1_MicroSD:MODULE_254"
+			(at 165.1 121.412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Adafruit"
+			(at 113.284 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.75 mm"
+			(at 120.904 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "NON STANDARD Adafruit"
+			(at 135.636 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 140.208 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" ""
+			(at 121.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 148.59 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "Jul 31, 2013"
+			(at 128.016 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 121.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "254"
+			(at 98.044 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 138.938 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit Industries"
+			(at 137.922 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "8"
+			(uuid "42b21c25-d172-4524-ae6f-af0c36295d95")
+		)
+		(pin "3"
+			(uuid "885aed32-c905-4d9b-a74e-301a4b64d6d2")
+		)
+		(pin "4"
+			(uuid "673e2050-3a46-4915-b982-4fcc37537f78")
+		)
+		(pin "2"
+			(uuid "0bb867ca-996c-47ce-9ed7-a616575598a0")
+		)
+		(pin "6"
+			(uuid "09d34999-9e1e-4e54-adda-570a6123ae6e")
+		)
+		(pin "1"
+			(uuid "e09a08a6-8dcf-4681-bef0-8ce886bf9a00")
+		)
+		(pin "7"
+			(uuid "7dc1eef3-1048-493e-a160-8d7bc7cfb282")
+		)
+		(pin "5"
+			(uuid "634a9103-093b-4e67-b740-9dfb11228001")
+		)
+		(instances
+			(project "camCAD"
+				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/6a2215d2-deaa-4e55-8021-5c3b01265060"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5386,7 +5667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-6_DIO"
+		(property "Footprint" "1_ChargePump:SOT-23-6_DIO"
 			(at 187.96 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5470,7 +5751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF cer, low ESR"
 			(at 239.776 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,7 +5831,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Flash LED"
 			(at 184.15 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +5841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_LEDs:QBLP677AD-IWD-2897"
 			(at 184.15 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5770,102 +6051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "1_MicroSD:MicroSD_BREA")
-		(at 134.62 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e939413-2c18-4ae6-9b8c-96b693d81c7e")
-		(property "Reference" "Z1"
-			(at 133.35 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MicroSD_Breakout"
-			(at 126.492 96.012 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a7362da-a4e2-43a2-a32e-de2b33506eeb")
-		)
-		(pin "2"
-			(uuid "a060f23a-90bc-4f5f-b92b-9beaacfcc389")
-		)
-		(pin "4"
-			(uuid "09457a04-26f3-48cb-acc8-fe075a0149b2")
-		)
-		(pin "3"
-			(uuid "2b3ad1ec-5626-4449-bd0f-1e6c86d8133b")
-		)
-		(pin "5"
-			(uuid "33f55ee1-f1c4-4c31-8e2a-44206c36949a")
-		)
-		(pin "6"
-			(uuid "15b2665b-d372-435d-a516-3ac72a30d9d7")
-		)
-		(pin "7"
-			(uuid "f35b3482-e7ea-43f0-97d5-9dec69d93ab2")
-		)
-		(instances
-			(project "camCAD"
-				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/6a2215d2-deaa-4e55-8021-5c3b01265060"
-					(reference "Z1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "1_Headers:5051101592")
 		(at 105.41 29.21 0)
 		(unit 1)
@@ -5898,7 +6083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5051101592:CON_5051101592_MOL"
+		(property "Footprint" "1_Headers:CON_5051101592_MOL"
 			(at 105.41 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6011,6 +6196,84 @@
 			(project "camCAD"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/6a2215d2-deaa-4e55-8021-5c3b01265060"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9e259d9-bd7a-44ae-9b8f-f96a8892920c")
+		(property "Reference" "#PWR024"
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5720d879-0a2e-4928-a0c5-158f39889c47")
+		)
+		(instances
+			(project "camCAD"
+				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/6a2215d2-deaa-4e55-8021-5c3b01265060"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6287,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAMERA-OV7670:CAMERA-OV7670-DIP"
+		(property "Footprint" "1_Cameras:CAMERA-OV7670-DIP"
 			(at 49.53 44.45 0)
 			(hide yes)
 			(show_name no)

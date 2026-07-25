@@ -7,4 +7,7 @@
 	(lib (name "1_Sockets") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_Sockets.pretty") (options "") (descr ""))
 	(lib (name "1_LEDs") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_LEDs.pretty") (options "") (descr ""))
 	(lib (name "1_BuckConverters") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_BuckConverters.pretty") (options "") (descr ""))
+	(lib (name "1_ChargePump") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_ChargePump.pretty") (options "") (descr ""))
+	(lib (name "1_Switches") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_Switches.pretty") (options "") (descr ""))
+	(lib (name "1_FerriteBeads") (type "KiCad") (uri "C:/Users/smvas/OneDrive/Documents/KiCad/Footprint Libraries/1_FerriteBeads.pretty") (options "") (descr ""))
 )

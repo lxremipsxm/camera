@@ -2,20 +2,27 @@
 
 ---
 
-## Component List (Digikey Part Numbers Included)
+## Major Component List (Digikey Part Numbers Included)
 1. STM32F407: 497-11766-ND
 2. OV7670: 1188-CAMERA-OV7670-ND
-3. MicroSD Breakout: 1568-00544-ND
-4. FPC Socket for ILI9341: WM12371CT-ND
-5. ILI9341: 1987-DT024ETFT-IPS-SHB-ND
-6. RGB LED: CLMVC-FKA-CL1D1L71BB7C3C3CT-ND
-7. Charge-Pump: 31-AP3602AKTR-G1CT-ND
-8. Flash LED: 1516-QBLP677AD-IWD-2897CT-ND
-9. Buck Converter: SC189ZSKCT-ND
-10. Battery: 1471-MIKROE-4474-ND
-11. Battery Connector: 455-B2B-XH-A-ND
-12. Charging IC: 296-38871-1-ND
-13. USB-C for Charging: 2223-UJ20-C-H-G-SMT-1-P16-TRCT-ND
+3. Adafruit MicroSD Breakout: 1528-1462-ND
+4. ILI9341: 1987-DT024ETFT-IPS-SHB-ND
+5. RGB LED: CLMVC-FKA-CL1D1L71BB7C3C3CT-ND
+6. Charge-Pump: 31-AP3602AKTR-G1CT-ND
+7. Flash LED: 1516-QBLP677AD-IWD-2897CT-ND
+8. Buck Converter: SC189ZSKCT-ND
+9. Battery: 1471-MIKROE-4474-ND
+10. Charging IC: 296-38871-1-ND
+11. USB-C for Charging: 2223-UJ20-C-H-G-SMT-1-P16-TRCT-ND
+12. PGOOD Indicator LED (Green): 160-LTST-C190GKTCT-ND 
+13. CHG Indicator LED (Red): 160-1436-1-ND
+
+## Resistors, Capacitors, and Headers
+1. JTAG ARM-10 compatible header: S9169-ND
+2. FPC Socket for ILI9341: WM12371CT-ND
+3. Battery Connector: 455-B2B-XH-A-ND
+4. Push Button (NRST): 4809-SKRPABE010CT-ND
+5. VDDA Ferrite Bead: 490-14396-1-ND
 
 ## STM32F407 + Recommendations from manufacturer
 1. PCB should be a multilayer one with separate layers for VSS and VDD
