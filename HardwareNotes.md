@@ -15,14 +15,36 @@
 10. Charging IC: 296-38871-1-ND
 11. USB-C for Charging: 2223-UJ20-C-H-G-SMT-1-P16-TRCT-ND
 12. PGOOD Indicator LED (Green): 160-LTST-C190GKTCT-ND 
-13. CHG Indicator LED (Red): 160-1436-1-ND
+13. CHG Indicator LED (Red): 160-1436-1-ND 
 
 ## Resistors, Capacitors, and Headers
+### Miscellaneous
 1. JTAG ARM-10 compatible header: S9169-ND
 2. FPC Socket for ILI9341: WM12371CT-ND
 3. Battery Connector: 455-B2B-XH-A-ND
 4. Push Button (NRST): 4809-SKRPABE010CT-ND
 5. VDDA Ferrite Bead: 490-14396-1-ND
+6. Buck Converter 2.2uH Inductor (rated at least 1.5 A for system load): 587-3226-1-ND  
+
+### Capacitors
+7. 100nF (0.1uF) ceramic decoupling (STM32 power): 1276-CL10E104KC8VPNCCT-ND 
+8. 1uF low ESR ceramic decoupling (charge pump): 587-6336-1-ND
+9. 1uF ceramic decoupling (STM32 power): 587-6336-1-ND
+10. 10uF ceramic decoupling (buck converter): 490-12538-1-ND
+11. 0.1uF NRST power switch capacitor: 1276-CL10E104KC8VPNCCT-ND 
+12. 4.7uF DPPM ceramic decoupling: 1276-1065-1-ND
+13. STM32 VCAP 2.2uF ceramic decoupling: 478-KGM03CR50J225MHCT-ND
+
+### Resistors
+14. 619 DPPM ISET: P619LCT-ND
+15. 4.7k DPPM ILIM: 311-4.7KLRCT-ND
+16. 1k Indicator LED: 311-1.00KLRCT-ND 
+17. 5.1k USB C Socket: P5.10KLCT-ND
+18. 10k BQ_TS & BOOT0: RMCF0402FT10K0CT-ND  
+19. 22 RGB_B LED: 541-22.0LCT-ND
+20. 33 RGB_G LED: 541-33.0LCT-ND
+21. 56 RGB_R LED: A129612CT-ND
+22. 47 VDDA-VREF: P47BCCT-ND 
 
 ## STM32F407 + Recommendations from manufacturer
 1. PCB should be a multilayer one with separate layers for VSS and VDD

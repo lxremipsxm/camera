@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3bbb928a-7854-463b-8d7b-41677fe0b601")
+	(paper "A4")
+	(lib_symbols)
+	(text "PortG is entirely unused, throw a couple buttons on there"
+		(exclude_from_sim no)
+		(at 82.55 39.878 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0c38b388-8b72-4301-983d-278c5f6fad02")
+	)
+)

@@ -11,9 +11,9 @@
 		(comment 4 "By Siddharth Vasudevan")
 	)
 	(lib_symbols)
-	(text "TODO:\n1. Create Footprints\n2. Find RC components\n3. Assign RC/misc footprints\n"
+	(text "TODO:\n1. User interface??"
 		(exclude_from_sim no)
-		(at 245.364 47.752 0)
+		(at 244.094 157.734 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -21,6 +21,52 @@
 			(justify left)
 		)
 		(uuid "117e5085-3984-4006-b2df-906fda8446cc")
+	)
+	(sheet
+		(at 243.84 29.21)
+		(size 112.395 100.33)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2c5e9329-5609-4715-b01e-255394adc491")
+		(property "Sheetname" "UI"
+			(at 243.84 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_interface.kicad_sch"
+			(at 243.84 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "camCAD"
+				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7"
+					(page "6")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 25.4 29.21)
@@ -69,7 +115,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 29.21)
+		(at 127 29.21)
 		(size 101.6 100.965)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -85,7 +131,7 @@
 		)
 		(uuid "6a2215d2-deaa-4e55-8021-5c3b01265060")
 		(property "Sheetname" "Components"
-			(at 129.54 28.4984 0)
+			(at 127 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -96,7 +142,7 @@
 			)
 		)
 		(property "Sheetfile" "components.kicad_sch"
-			(at 129.54 130.7596 0)
+			(at 127 130.7596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -115,7 +161,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 149.86)
+		(at 127 149.86)
 		(size 102.235 96.52)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -131,7 +177,7 @@
 		)
 		(uuid "d4928a95-01f6-4ac1-a577-561f178a5e0e")
 		(property "Sheetname" "Power_Supply&Charging"
-			(at 129.54 149.1484 0)
+			(at 127 149.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -142,7 +188,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 129.54 246.9646 0)
+			(at 127 246.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
