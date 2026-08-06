@@ -44,7 +44,9 @@
 19. 22 RGB_B LED: 541-22.0LCT-ND
 20. 33 RGB_G LED: 541-33.0LCT-ND
 21. 56 RGB_R LED: A129612CT-ND
-22. 47 VDDA-VREF: P47BCCT-ND 
+22. 47 VDDA-VREF: P47BCCT-ND
+23. 100k Voltage Divider R into ADC junction: 311-100KLRCT-ND 
+24. 220k Voltage Divider R from ADC to GND: A126350CT-ND 
 
 ## STM32F407 + Recommendations from manufacturer
 1. PCB should be a multilayer one with separate layers for VSS and VDD
