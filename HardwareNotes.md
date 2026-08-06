@@ -64,8 +64,8 @@
 1. Draws ~100mA worst case scenario
 
 
-## SWD Header
-1. Exposes the SWD peripheral that can be used to debug with a STLink
+## ~~SWD Header~~ JTAG header
+1. Exposes the JTAG peripheral that can be used to debug with an STLink
 
 
 ## ILI9341
