@@ -17,7 +17,7 @@
 12. PGOOD Indicator LED (Green): 160-LTST-C190GKTCT-ND 
 13. CHG Indicator LED (Red): 160-1436-1-ND 
 
-## Resistors, Capacitors, and Headers
+## Resistors, Capacitors, Inductors, and Headers
 ### Miscellaneous
 1. JTAG ARM-10 compatible header: S9169-ND
 2. FPC Socket for ILI9341: WM12371CT-ND

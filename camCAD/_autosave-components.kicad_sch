@@ -3696,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 57.15) (xy 34.29 57.15)
+			(xy 30.48 57.15) (xy 34.29 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4225,7 +4225,7 @@
 	)
 	(global_label "SC_3V3"
 		(shape input)
-		(at 27.94 57.15 180)
+		(at 30.48 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4235,7 +4235,7 @@
 		)
 		(uuid "08db019b-7eec-48de-95c4-3ae75d62fe5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.0001 57.15 0)
+			(at 20.5401 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

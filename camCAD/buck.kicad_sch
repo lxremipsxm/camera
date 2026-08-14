@@ -2903,16 +2903,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 36.83) (xy 116.84 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570af08f-44e5-4839-add2-a3d2de77755a")
-	)
-	(wire
-		(pts
 			(xy 67.31 90.17) (xy 67.31 96.52)
 		)
 		(stroke
@@ -3953,6 +3943,30 @@
 	)
 	(global_label "BQ_VSS"
 		(shape input)
+		(at 100.33 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba32321a-f2d6-4826-aaaf-717f00aa9cf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.3909 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BQ_VSS"
+		(shape input)
 		(at 100.33 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4961,84 +4975,6 @@
 			(project "camCAD"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d806c47-5e3a-46d2-be56-fa66e2752882")
-		(property "Reference" "#PWR06"
-			(at 116.84 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aba5be50-e757-495e-98a9-9646c438cd64")
-		)
-		(instances
-			(project "camCAD"
-				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
