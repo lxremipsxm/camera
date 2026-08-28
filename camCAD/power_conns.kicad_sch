@@ -1755,7 +1755,7 @@
 		)
 		(uuid "fa7ed70e-146f-47c2-b044-0624a08f97b3")
 	)
-	(label "C10-"
+	(label "CapJunction"
 		(at 97.79 55.88 0)
 		(effects
 			(font
