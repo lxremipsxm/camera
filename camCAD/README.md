@@ -26,5 +26,14 @@ This schematic contains the buttons that will aid the user in communicating with
 
 ![User Interface Schematic](../imgs/ui.png)
 
-### PCB Layout
+### PCB Layout (Two Layer)
+I was recommended to use four layers to separate the ground and VCC Planes better, but this is what I got routing with a two-layer PCB, with the back CU layer housing a ground fill zone. 
 
+Front Layout
+![Front Layout CU only](../imgs/twoLayer_FCu.png)
+![Front 3D Model](../imgs/twoLayer_3DF.png)
+
+
+Back Layout
+![Back Layout Cu](../imgs/twoLayer_BCu.png)
+![Back 3D Model](../imgs/twoLayer_3DB.png)
