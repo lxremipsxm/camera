@@ -31,11 +31,13 @@ I was recommended to use four layers to separate the ground and VCC Planes bette
 
 #### Front Layout
 All dimensions are in mm.
-![Front Layout CU only](../imgs/twoLayer_FCu.png)
-![Front 3D Model](../imgs/twoLayer_3DF.png)
+| Layout | 3D Model |
+| ------- | -------- |
+| ![Front Layout CU only](../imgs/twoLayer_FCu.png) | ![Front 3D Model](../imgs/twoLayer_3DF.png) |
+
 
 
 #### Back Layout
 All dimensions are in mm.
 ![Back Layout Cu](../imgs/twoLayer_BCu.png)
-![Back 3D Model](../imgs/twoLayer_3DB.png)
+![Back 3D Model](../imgs/twoLayer_3DB(1).png)
