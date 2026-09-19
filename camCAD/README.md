@@ -39,5 +39,6 @@ All dimensions are in mm.
 
 #### Back Layout
 All dimensions are in mm.
-![Back Layout Cu](../imgs/twoLayer_BCu.png)
-![Back 3D Model](../imgs/twoLayer_3DB(1).png)
+| Layout | 3D Model |
+| ------- | -------- |
+| ![Back Layout Cu](../imgs/twoLayer_BCu.png) | ![Back 3D Model](../imgs/twoLayer_3DB(1).png) |
