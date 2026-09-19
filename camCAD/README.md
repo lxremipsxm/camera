@@ -42,3 +42,19 @@ All dimensions are in mm.
 | Layout | 3D Model |
 | ------- | -------- |
 | ![Back Layout Cu](../imgs/twoLayer_BCu.png) | ![Back 3D Model](../imgs/twoLayer_3DB(1).png) |
+
+
+
+### PCB Layout (Four Layer)
+This PCB will be printed once I reverify the schematics and layout
+
+| Front CU | Back CU |
+|-------- | -------- | 
+| ![Front Layout CU ](../imgs/fourLayer_FCu.png) | ![Back Layout CU only](../imgs/fourLayer_BCu.png) |
+| ![Front 3D ](../imgs/fourLayer_3DF.png) | ![Back 3D ](../imgs/fourLayer_3DB.png) |
+
+
+| VCC CU | GND CU |
+| ------- | ------- |
+| ![VCC Layout CU](../imgs/fourLayer_3VCu.png) | ![GND Layout CU](../imgs/fourLayer_GNDCu.png) |
+
