@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
         }
@@ -489,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "camCAD.kicad_pro",
+    "filename": "camCAD_fourLayer.kicad_pro",
     "version": 3
   },
   "net_settings": {

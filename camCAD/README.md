@@ -50,11 +50,11 @@ This PCB will be printed once I reverify the schematics and layout
 
 | Front CU | Back CU |
 |-------- | -------- | 
-| ![Front Layout CU ](../imgs/fourLayer_FCu.png) | ![Back Layout CU only](../imgs/fourLayer_BCu.png) |
-| ![Front 3D ](../imgs/fourLayer_3DF.png) | ![Back 3D ](../imgs/fourLayer_3DB.png) |
+| ![Front Layout CU ](../imgs/fourLayer_FCu_1.png) | ![Back Layout CU only](../imgs/fourLayer_BCu_1.png) |
+| ![Front 3D ](../imgs/fourLayer_3DF_1.png) | ![Back 3D ](../imgs/fourLayer_3DB_1.png) |
 
 
 | VCC CU | GND CU |
 | ------- | ------- |
-| ![VCC Layout CU](../imgs/fourLayer_3VCu.png) | ![GND Layout CU](../imgs/fourLayer_GNDCu.png) |
+| ![VCC Layout CU](../imgs/fourLayer_3VCu_1.png) | ![GND Layout CU](../imgs/fourLayer_GNDCu_1.png) |
 
