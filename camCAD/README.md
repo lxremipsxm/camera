@@ -28,33 +28,29 @@ This schematic contains the buttons that will aid the user in communicating with
 
 ### PCB Layout (Two Layer)
 I was recommended to use four layers to separate the ground and VCC Planes better, but this is what I got routing with a two-layer PCB, with the back CU layer housing a ground fill zone. 
-
-#### Front Layout
-All dimensions are in mm.
+The following layout was verified by the DRC. All dimensions are in mm.
 | Layout | 3D Model |
 | ------- | -------- |
 | ![Front Layout CU only](../imgs/twoLayer_FCu.png) | ![Front 3D Model](../imgs/twoLayer_3DF.png) |
 
 
-
-#### Back Layout
-All dimensions are in mm.
-| Layout | 3D Model |
+| Back Layout | 3D Model |
 | ------- | -------- |
 | ![Back Layout Cu](../imgs/twoLayer_BCu.png) | ![Back 3D Model](../imgs/twoLayer_3DB(1).png) |
 
 
 
 ### PCB Layout (Four Layer)
-This PCB will be printed once I reverify the schematics and layout
+This PCB will be printed once I reverify the schematics and layout. I was able to make the board a little more compact with four layers.
+The layout was verified by the DRC. All dimensions are in mm.
 
 | Front CU | Back CU |
 |-------- | -------- | 
-| ![Front Layout CU ](../imgs/fourLayer_FCu_1.png) | ![Back Layout CU only](../imgs/fourLayer_BCu_1.png) |
-| ![Front 3D ](../imgs/fourLayer_3DF_1.png) | ![Back 3D ](../imgs/fourLayer_3DB_1.png) |
+| ![Front Layout CU ](../imgs/fourLayer_FCu_2.png) | ![Back Layout CU only](../imgs/fourLayer_BCu_2.png) |
+| ![Front 3D ](../imgs/fourLayer_3DF_2.png) | ![Back 3D ](../imgs/fourLayer_3DB_2.png) |
 
 
 | VCC CU | GND CU |
 | ------- | ------- |
-| ![VCC Layout CU](../imgs/fourLayer_3VCu_1.png) | ![GND Layout CU](../imgs/fourLayer_GNDCu_1.png) |
+| ![VCC Layout CU](../imgs/fourLayer_3VCu_2.png) | ![GND Layout CU](../imgs/fourLayer_GNDCu_2.png) |
 

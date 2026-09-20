@@ -4328,6 +4328,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "11c5a7fd-562b-429d-b2a1-4de85bba3a4f")
 		)
@@ -4380,7 +4402,7 @@
 			(uuid "a7812775-57b0-4dfb-adf0-0f985b112b91")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "U1")
 					(unit 1)
@@ -4463,6 +4485,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 113.03 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 113.03 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "d6ef0db5-521e-4604-90a7-a297d31e1ca3")
 		)
@@ -4470,7 +4514,7 @@
 			(uuid "dd5f08c8-db20-4f6d-b799-63a0e197dd86")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "D6")
 					(unit 1)
@@ -4548,7 +4592,7 @@
 			(uuid "e487f79d-17e0-4cd8-b74c-477ab95e5bbe")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "#PWR015")
 					(unit 1)
@@ -4620,6 +4664,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0af57cda-6a36-4230-999f-6bca0ad8f00e")
 		)
@@ -4627,7 +4693,7 @@
 			(uuid "a9891495-51d5-4e10-b74a-44ce62b563f6")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R4")
 					(unit 1)
@@ -4700,6 +4766,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 201.93 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 201.93 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00fef8ae-0020-40bb-98d4-1bc0474e8f93")
 		)
@@ -4707,7 +4795,7 @@
 			(uuid "809d3f53-1097-471a-bb82-1d491eb12ad7")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "L1")
 					(unit 1)
@@ -4779,6 +4867,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 77.47 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 77.47 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4406d53-7d9f-4a9a-b730-9019bc2d0fda")
 		)
@@ -4786,7 +4896,7 @@
 			(uuid "81774b30-44e0-42dc-9ee8-a8ada917fd2f")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "C26")
 					(unit 1)
@@ -4861,6 +4971,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "27f35dec-2036-47a2-b27b-18a9f9fa690a")
 		)
@@ -4868,7 +5000,7 @@
 			(uuid "f93d3eb3-ce23-421e-83c7-351a66fb29b0")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R19")
 					(unit 1)
@@ -4942,6 +5074,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 144.78 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 144.78 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "daffcb68-8061-4472-b27b-b7d3f30921fa")
 		)
@@ -4949,7 +5103,7 @@
 			(uuid "ade8fd72-4296-4bec-a1a5-a804698b37eb")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "C20")
 					(unit 1)
@@ -5021,6 +5175,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 97.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 97.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ec73fbb-5163-46ae-b3c2-21d93f47740b")
 		)
@@ -5028,7 +5204,7 @@
 			(uuid "e6f8edc6-90a5-43a9-8ad5-3fc84fe3ead4")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R12")
 					(unit 1)
@@ -5106,7 +5282,7 @@
 			(uuid "7ecac41f-eae0-4d99-9927-c688440f0043")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "#PWR017")
 					(unit 1)
@@ -5184,7 +5360,7 @@
 			(uuid "2c582ed7-f978-4227-a3f9-12b76e560042")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "#PWR014")
 					(unit 1)
@@ -5256,6 +5432,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 59.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 59.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cbb6b0a-224b-495c-8b22-cb5633350a6f")
 		)
@@ -5263,7 +5461,7 @@
 			(uuid "58ed14ec-9c76-4099-8091-bd7381ef0c8f")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "C24")
 					(unit 1)
@@ -5335,6 +5533,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 31.75 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 31.75 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "351cd941-c6d4-4a6d-ac19-d09a89fbba70")
 		)
@@ -5342,7 +5562,7 @@
 			(uuid "66f66e67-301e-4840-8e46-bc3a7f465c6b")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R11")
 					(unit 1)
@@ -5415,6 +5635,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b00539ac-6e98-4e82-a540-c4b0e02e0223")
 		)
@@ -5422,7 +5664,7 @@
 			(uuid "2d4e82c5-f925-4aed-89f3-61b9f87c0371")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "J3")
 					(unit 1)
@@ -5494,6 +5736,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 24.13 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 24.13 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7402f427-2f96-4bb3-b9d1-c4b1539a077a")
 		)
@@ -5501,7 +5765,7 @@
 			(uuid "ced557f6-4ea8-4b41-ae14-6bba0d8d0b6f")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R13")
 					(unit 1)
@@ -5573,6 +5837,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 167.64 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 167.64 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05c54896-0706-4548-adfa-08a436f58724")
 		)
@@ -5580,7 +5866,7 @@
 			(uuid "3476c397-d0e9-40b5-83bc-e28d88c51e79")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R3")
 					(unit 1)
@@ -5658,7 +5944,7 @@
 			(uuid "752ef4ad-3809-4286-83b3-1e57b6a553e7")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "#PWR01")
 					(unit 1)
@@ -5730,6 +6016,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 113.03 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "57962e7f-5e9d-48a1-9183-355e356500be")
 		)
@@ -5737,7 +6045,7 @@
 			(uuid "8824cdbf-2ed8-46a7-ac58-1d1911325f68")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R10")
 					(unit 1)
@@ -5809,6 +6117,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 167.64 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 167.64 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ddba68cc-7aa1-4201-93aa-9dd5227aa6d8")
 		)
@@ -5816,7 +6146,7 @@
 			(uuid "80a5ce7b-b154-4318-a555-9f974b3c702d")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R2")
 					(unit 1)
@@ -5894,7 +6224,7 @@
 			(uuid "fcbd1f30-c860-4fe0-a140-597f70343b25")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "#PWR05")
 					(unit 1)
@@ -5969,6 +6299,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 210.82 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 210.82 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2eedaa4e-c2e8-4848-b6b0-3999765cf836")
 		)
@@ -5976,7 +6328,7 @@
 			(uuid "6e1b3e47-ad32-4104-975e-cb79cc3d2e98")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "C21")
 					(unit 1)
@@ -6097,6 +6449,28 @@
 				(justify bottom)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A1_B12"
 			(uuid "693c1a3d-3ea4-4568-9a6b-17873be516be")
 		)
@@ -6146,7 +6520,7 @@
 			(uuid "fe2049c6-f3eb-491b-92b5-35eedec31d1f")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "J1")
 					(unit 1)
@@ -6219,6 +6593,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 222.25 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 222.25 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc34069c-4888-4379-9b4b-3a35b71cd936")
 		)
@@ -6226,7 +6622,7 @@
 			(uuid "f7ee8e84-accb-4dfd-bac2-e70a628aaef1")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "R18")
 					(unit 1)
@@ -6298,6 +6694,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 39.37 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 39.37 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "83569ada-eb89-4a17-9bc7-41d27f73d449")
 		)
@@ -6305,7 +6723,7 @@
 			(uuid "cf7082e8-f58f-4f1d-bc4d-5c9107876bef")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "C25")
 					(unit 1)
@@ -6383,7 +6801,7 @@
 			(uuid "3f702d46-ec26-424c-8c4a-c9aaf0230cdf")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "#PWR016")
 					(unit 1)
@@ -6467,6 +6885,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 97.79 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 97.79 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "36f7bd42-fae1-4955-8797-d42d52d22c0f")
 		)
@@ -6474,7 +6914,7 @@
 			(uuid "a0b17c14-d219-4a56-b39c-0aab4d3acb08")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "D7")
 					(unit 1)
@@ -6549,6 +6989,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 173.99 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 173.99 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "6bfc9cfe-618c-4037-ac59-023e45ad2265")
 		)
@@ -6565,7 +7027,7 @@
 			(uuid "e69e3ac9-e6d5-4752-8c12-d16c232a4f9d")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "U2")
 					(unit 1)
@@ -6643,7 +7105,7 @@
 			(uuid "ca1e279f-07be-4217-a112-393de75ff19d")
 		)
 		(instances
-			(project "camCAD"
+			(project "camCAD_fourLayer_v2"
 				(path "/e2824ea6-9024-4cee-b80c-5fefbc7112d7/d4928a95-01f6-4ac1-a577-561f178a5e0e"
 					(reference "#PWR04")
 					(unit 1)

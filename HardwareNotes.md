@@ -6,7 +6,8 @@
 1. STM32F407: 497-11766-ND
 2. OV7670: 1188-CAMERA-OV7670-ND
 3. Adafruit MicroSD Breakout: 1528-1462-ND
-4. ILI9341: 1987-DT024ETFT-IPS-SHB-ND
+~~ 4. ILI9341: 1987-DT024ETFT-IPS-SHB-ND~~ 
+4. Display Module (ADA 4311): 1528-4311-ND
 5. RGB LED: CLMVC-FKA-CL1D1L71BB7C3C3CT-ND
 6. Charge-Pump: 31-AP3602AKTR-G1CT-ND
 7. Flash LED: 1516-QBLP677AD-IWD-2897CT-ND
@@ -19,7 +20,7 @@
 
 ## Resistors, Capacitors, Inductors, and Headers
 ### Miscellaneous
-1. JTAG ARM-10 compatible header: S9169-ND
+1. SWD ARM-10 compatible header: S9169-ND
 2. FPC Socket for ILI9341: WM12371CT-ND
 3. Battery Connector: 455-B2B-XH-A-ND
 4. Push Button (NRST): 4809-SKRPABE010CT-ND
@@ -64,7 +65,7 @@
 1. Draws ~100mA worst case scenario
 
 
-## ~~SWD Header~~ JTAG header
+## SWD Header ~~JTAG header~~
 1. Exposes the JTAG peripheral that can be used to debug with an STLink
 
 
@@ -173,3 +174,52 @@ Battery selected (Items 10 and 11 in **Component List**).
 
 ## USB C Socket
 1. 
+
+
+
+# Schematic/Layout Verification and Code Information
+
+## ADA 4311 Display
+(**REPLACING**)
+| 4311 Pin Name | STM Pin # | STM GPIO AF |
+| ----- | ----- | ----- |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+
+
+## OV7670 Camera Module 
+(Verified 9/20)
+
+| OV Pin Name | STM Pin # | STM GPIO AF |
+| ---------- | ----------- | ---------- |
+| SCL | PF1 | I2C2_SCL | 
+| SDA | PF0 | I2C2_SDA |
+| VSYNC | PB7 | DCMI_VSYNC |
+| HREF | PA4 | DCMI_HSYNC |
+| PCLK | PA6 | DCMI_PIXCLK |
+| XCLK | PB11 | TIM2_CH4 |
+| RESET | PE7 | NA | 
+| PWDWN | PE8 | NA |
+| D0 | PC6 | DCMI_D0 |
+| D1 | PC7 | DCMI_D1 |
+| D2 | PE0 | DCMI_D2 |
+| D3 | PE1 | DCMI_D3 |
+| D4 | PE4 | DCMI_D4 |
+| D5 | PB6 | DCMI_D5 |
+| D6 | PE5 | DCMI_D6 |
+| D7 | PE6 | DCMI_D7 |
+
+## ADA 254 MicroSD Breakout
+(Unverified)
+
+| 254 Pin Name | STM Pin # | STM GPIO AF |
+| ---------- | ----------- | ---------- |
+| CS | PB12 | SPI2_NSS |
+| CLK | PB13 | SPI2_SCK |
+| DI | PB15 | SPI2_MOSI |
+| DO | PB14 | SPI2_MISO |
+| CD (card detect) | PB0 | NA |
