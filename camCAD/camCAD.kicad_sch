@@ -11,7 +11,7 @@
 		(comment 4 "By Siddharth Vasudevan")
 	)
 	(lib_symbols)
-	(text "TODO:\n1. REWIRE\n	a. SPI for display needs to use PA15\n	b. Add a 18-pin header for EYESPI connector instead\n	"
+	(text ""
 		(exclude_from_sim no)
 		(at 192.278 173.99 0)
 		(effects

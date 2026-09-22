@@ -21,7 +21,7 @@
 ## Resistors, Capacitors, Inductors, and Headers
 ### Miscellaneous
 1. SWD ARM-10 compatible header: S9169-ND
-2. FPC Socket for ILI9341: WM12371CT-ND
+2. FPC Socket: WM12374CT-ND
 3. Battery Connector: 455-B2B-XH-A-ND
 4. Push Button (NRST): 4809-SKRPABE010CT-ND
 5. VDDA Ferrite Bead: 490-14396-1-ND
@@ -180,15 +180,15 @@ Battery selected (Items 10 and 11 in **Component List**).
 # Schematic/Layout Verification and Code Information
 
 ## ADA 4311 Display
-(**REPLACING**)
-| 4311 Pin Name | STM Pin # | STM GPIO AF |
-| ----- | ----- | ----- |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+(Verified 9/20)
+| Header Pin # | 4311 Pin Name | STM Pin # | STM GPIO AF |
+| ----- | ----- | ----- | ----- |
+| 4 | SCK | PC10 | SPI3_SCK |
+| 5 | MOSI | PC12 | SPI3_MOSI |
+| 6 | MISO | PC11 | SPI3_MISO |
+| 7 | DC (Data/CMD) | PC13 | NA |
+| 8 | RESET | PC14 | NA |
+| 9 | TFTCS | PA15 | SPI3_NSS |
 
 
 ## OV7670 Camera Module 
@@ -214,7 +214,7 @@ Battery selected (Items 10 and 11 in **Component List**).
 | D7 | PE6 | DCMI_D7 |
 
 ## ADA 254 MicroSD Breakout
-(Unverified)
+(Verified 9/20)
 
 | 254 Pin Name | STM Pin # | STM GPIO AF |
 | ---------- | ----------- | ---------- |
